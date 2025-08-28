@@ -1,0 +1,82 @@
+[
+  {
+    "names": [
+      "milk",
+      "दूध"
+    ],
+    "price": 30,
+    "category": "Dairy"
+  },
+  {
+    "names": [
+      "bread",
+      "ब्रेड"
+    ],
+    "price": 25,
+    "category": "Bakery"
+  },
+  {
+    "names": [
+      "apple",
+      "सेब"
+    ],
+    "price": 100,
+    "category": "Produce"
+  },
+  {
+    "names": [
+      "banana",
+      "केला"
+    ],
+    "price": 40,
+    "category": "Produce"
+  },
+  {
+    "names": [
+      "orange",
+      "संतरा"
+    ],
+    "price": 60,
+    "category": "Produce"
+  },
+  {
+    "names": [
+      "yogurt",
+      "दही"
+    ],
+    "price": 50,
+    "category": "Dairy"
+  },
+  {
+    "names": [
+      "cheese",
+      "पनीर"
+    ],
+    "price": 120,
+    "category": "Dairy"
+  },
+  {
+    "names": [
+      "chips",
+      "चिप्स"
+    ],
+    "price": 20,
+    "category": "Snacks"
+  },
+  {
+    "names": [
+      "cookies",
+      "बिस्कुट"
+    ],
+    "price": 45,
+    "category": "Snacks"
+  },
+  {
+    "names": [
+      "almond milk",
+      "बादाम दूध"
+    ],
+    "price": 150,
+    "category": "Dairy"
+  }
+]

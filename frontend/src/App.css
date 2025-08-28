@@ -1,0 +1,162 @@
+/* Global Layout */
+.app-container {
+  min-height: 100vh;
+  background: #f4f6f9; /* subtle grey */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.app-header {
+  background: #fff;
+  color: #111;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.lang-select {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+.lang-select:hover {
+  border-color: #666;
+}
+
+/* Main */
+.app-main {
+  flex: 1;
+  max-width: 720px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Status */
+.status-line {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Voice Box */
+/* Voice Box */
+.voice-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  padding: 10px 16px;
+  margin: 20px auto;
+  max-width: 700px;
+  min-height: 60px;              /* 🔒 stays same even when empty */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Transcript behaves like a fixed input field */
+.transcript {
+  flex: 1;
+  margin-right: 12px;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.4;
+
+  /* 🔒 Stable height & spacing */
+  min-height: 22px;
+  display: flex;
+  align-items: center;
+
+  /* Prevent shrinking when text clears */
+  min-width: 100px;
+
+  /* Prevent jank resizing */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.transcript:empty::before {
+  content: "Tap the mic and start speaking...";
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Mic button */
+.mic-btn {
+  background: #fff;
+  border: 2px solid #888;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* 🔒 doesn't resize with text */
+}
+.mic-btn:hover {
+  background: #f0f0f0;
+}
+.mic-btn.active {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0,123,255,0.6);
+}
+
+
+/* Section Titles */
+.section h2 {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin: 20px 0 12px;
+  color: #222;
+}
+
+/* Empty state */
+.empty {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Lists */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.15s ease;
+}
+.list-item:hover {
+  transform: translateY(-2px);
+}
