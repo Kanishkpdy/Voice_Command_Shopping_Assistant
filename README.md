@@ -1,18 +1,20 @@
-Voice Command Shopping Assistant - Final
+# Voice Command Shopping Assistant
 
-Run locally:
+A voice-driven shopping list manager where users can add, remove, and search products using natural voice commands. The app provides smart suggestions using the Gemini API when available, with a local fallback to ensure functionality without external services. It supports multiple languages including English, Hindi, Spanish, and French, and persists the shopping list in JSON format.
 
-Backend:
-cd backend
-npm install
-cp .env.example .env   # optionally add GEMINI_API_KEY
-npm start
+## My Approach
 
-Frontend:
-cd frontend
-npm install
-npm run dev
+I implemented a voice-first interface using the Web Speech API to capture and process user commands. Commands are parsed for intent (add/remove) and quantity, then mapped to canonical product names. Smart suggestions are fetched from the Gemini API if available; otherwise, a local algorithm suggests items not yet in the list. The backend handles command processing, shopping list persistence, and suggestion logic, while the frontend provides real-time feedback, displays the shopping list, suggestions, and search results in a clean, mobile-first UI.
 
-Deployment (Cloud Run + Firebase Hosting or Vercel + Render):
-- Build backend docker and deploy to Cloud Run (set GEMINI_API_KEY env var if using Gemini)
-- Build frontend and host on Firebase/ Vercel / Netlify. Configure /api proxy to backend URL or use VITE_API_BASE.
+## Deployment
+
+- **Backend** is deployed on Render to handle API requests and persist data.  
+- **Frontend** is deployed on Vercel to serve the React application.  
+- Both are deployed separately, with the frontend calling the backend API for commands, list updates, and suggestions.  
+
+## Important Notes
+
+- Gemini API is optional; the local suggestion logic ensures functionality if the API is unavailable.  
+- JSON-based persistence is used for demo purposes; for production, a proper database is recommended.  
+- Multilingual support allows users to interact in different languages seamlessly.  
+- Minimalist design focuses on voice-first interaction and easy usability.
