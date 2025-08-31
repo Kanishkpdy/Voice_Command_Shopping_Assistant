@@ -1,82 +1,58 @@
 [
-  {
-    "names": [
-      "milk",
-      "दूध"
-    ],
-    "price": 30,
-    "category": "Dairy"
-  },
-  {
-    "names": [
-      "bread",
-      "ब्रेड"
-    ],
-    "price": 25,
-    "category": "Bakery"
-  },
-  {
-    "names": [
-      "apple",
-      "सेब"
-    ],
-    "price": 100,
-    "category": "Produce"
-  },
-  {
-    "names": [
-      "banana",
-      "केला"
-    ],
-    "price": 40,
-    "category": "Produce"
-  },
-  {
-    "names": [
-      "orange",
-      "संतरा"
-    ],
-    "price": 60,
-    "category": "Produce"
-  },
-  {
-    "names": [
-      "yogurt",
-      "दही"
-    ],
-    "price": 50,
-    "category": "Dairy"
-  },
-  {
-    "names": [
-      "cheese",
-      "पनीर"
-    ],
-    "price": 120,
-    "category": "Dairy"
-  },
-  {
-    "names": [
-      "chips",
-      "चिप्स"
-    ],
-    "price": 20,
-    "category": "Snacks"
-  },
-  {
-    "names": [
-      "cookies",
-      "बिस्कुट"
-    ],
-    "price": 45,
-    "category": "Snacks"
-  },
-  {
-    "names": [
-      "almond milk",
-      "बादाम दूध"
-    ],
-    "price": 150,
-    "category": "Dairy"
-  }
+  { "names": ["milk", "दूध"], "price": 140, "category": "Dairy" },
+  { "names": ["almond milk", "बादाम दूध"], "price": 140, "category": "Dairy" },
+  { "names": ["soy milk", "सोया दूध"], "price": 140, "category": "Dairy" },
+  { "names": ["yogurt", "curd", "दही", "buttermilk", "छाछ"], "price": 140, "category": "Dairy" },
+  { "names": ["cheese", "पनीर"], "price": 140, "category": "Dairy" },
+  { "names": ["butter", "मक्खन"], "price": 140, "category": "Dairy" },
+  { "names": ["ghee", "घी"], "price": 140, "category": "Dairy" },
+  { "names": ["cream", "क्रीम"], "price": 140, "category": "Dairy" },
+
+  { "names": ["bread", "brown bread", "multigrain bread", "bagel", "croissant", "buns", "tortilla", "pita"], "price": 70, "category": "Bakery" },
+
+  { "names": ["apple", "सेब"], "price": 105, "category": "Produce" },
+  { "names": ["banana", "केला"], "price": 105, "category": "Produce" },
+  { "names": ["orange", "संतरा", "citrus"], "price": 105, "category": "Produce" },
+  { "names": ["grapes", "अंगूर"], "price": 105, "category": "Produce" },
+  { "names": ["mango", "आम"], "price": 105, "category": "Produce" },
+  { "names": ["strawberry", "स्ट्रॉबेरी"], "price": 105, "category": "Produce" },
+  { "names": ["blueberry", "ब्लूबेरी"], "price": 105, "category": "Produce" },
+  { "names": ["blackberry", "ब्लैकबेरी"], "price": 105, "category": "Produce" },
+  { "names": ["pineapple", "अनानास"], "price": 105, "category": "Produce" },
+  { "names": ["watermelon", "तरबूज"], "price": 105, "category": "Produce" },
+  { "names": ["papaya", "पपीता"], "price": 105, "category": "Produce" },
+  { "names": ["pear", "नाशपाती"], "price": 105, "category": "Produce" },
+  { "names": ["peach", "आड़ू"], "price": 105, "category": "Produce" },
+  { "names": ["plum", "आलूबुखारा"], "price": 105, "category": "Produce" },
+  { "names": ["kiwi", "कीवी"], "price": 105, "category": "Produce" },
+  { "names": ["lemon", "नींबू"], "price": 105, "category": "Produce" },
+  { "names": ["lime", "चूना"], "price": 105, "category": "Produce" },
+  { "names": ["tomato", "टमाटर"], "price": 105, "category": "Produce" },
+  { "names": ["potato", "आलू"], "price": 105, "category": "Produce" },
+  { "names": ["onion", "प्याज"], "price": 105, "category": "Produce" },
+  { "names": ["garlic", "लहसुन"], "price": 105, "category": "Produce" },
+  { "names": ["ginger", "अदरक"], "price": 105, "category": "Produce" },
+  { "names": ["spinach", "पालक"], "price": 105, "category": "Produce" },
+  { "names": ["lettuce", "सलाद पत्ता"], "price": 105, "category": "Produce" },
+  { "names": ["cabbage", "बंदगोभी"], "price": 105, "category": "Produce" },
+  { "names": ["carrot", "गाजर"], "price": 105, "category": "Produce" },
+  { "names": ["cucumber", "खीरा"], "price": 105, "category": "Produce" },
+  { "names": ["broccoli", "ब्रोकोली"], "price": 105, "category": "Produce" },
+  { "names": ["cauliflower", "फूलगोभी"], "price": 105, "category": "Produce" },
+  { "names": ["bell pepper", "शिमला मिर्च"], "price": 105, "category": "Produce" },
+  { "names": ["chili", "मिर्च"], "price": 105, "category": "Produce" },
+  { "names": ["beetroot", "चुकंदर"], "price": 105, "category": "Produce" },
+  { "names": ["okra", "भिंडी"], "price": 105, "category": "Produce" },
+  { "names": ["eggplant", "बैंगन"], "price": 105, "category": "Produce" },
+  { "names": ["zucchini", "ज़ूचिनी"], "price": 105, "category": "Produce" },
+  { "names": ["avocado", "एवोकाडो"], "price": 105, "category": "Produce" },
+  { "names": ["coriander", "धनिया"], "price": 105, "category": "Produce" },
+  { "names": ["mint", "पुदीना"], "price": 105, "category": "Produce" },
+
+  { "names": ["chips", "चिप्स"], "price": 105, "category": "Snacks" },
+  { "names": ["cookies", "कुकीज"], "price": 105, "category": "Snacks" },
+  { "names": ["biscuits", "बिस्कुट"], "price": 105, "category": "Snacks" },
+  { "names": ["popcorn", "पॉपकॉर्न"], "price": 105, "category": "Snacks" },
+  { "names": ["chocolate", "चॉकलेट"], "price": 105, "category": "Snacks" },
+  { "names": ["candy", "कैंडी"], "price": 105, "category": "Snacks" }
 ]
