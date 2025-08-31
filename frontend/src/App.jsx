@@ -294,7 +294,7 @@ export default function App() {
         <div className="grid">{products.map(renderProductCard)}</div>
       </section>
 
-      <footer className="foot">Kanishk Pandey</footer>
+      <footer className="foot">By Kanishk Pandey</footer>
     </div>
   );
 }
