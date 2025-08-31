@@ -178,7 +178,7 @@ export default function App() {
         <h1>Voice Shopping</h1>
         <p className="sub">Say commands like "Add 2 milk" or "Remove bread"</p>
       </header>
-    <center><p><strong>Disclaimer:</strong> The backend runs on a free-tier server and may take up to 50 seconds to start.</p></center>
+    <center><p class="disc"><strong>Disclaimer:</strong> The backend runs on a free-tier server and may take up to 50 seconds to start.</p></center>
 
 
   
