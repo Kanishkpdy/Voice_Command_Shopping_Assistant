@@ -1,0 +1,6 @@
+# Ignore all env files
+*.env
+
+# Node.js stuff
+node_modules/
+dist/
