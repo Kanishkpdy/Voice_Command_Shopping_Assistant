@@ -14,7 +14,6 @@ I implemented a voice-first interface using the Web Speech API to capture and pr
 
 ## Important Notes
 
-- Gemini API is optional; the local suggestion logic ensures functionality if the API is unavailable.  
-- JSON-based persistence is used for demo purposes; for production, a proper database is recommended.  
+- Gemini API is optional; the local suggestion logic ensures functionality if the API is unavailable.   
 - Multilingual support allows users to interact in different languages seamlessly.  
 - Minimalist design focuses on voice-first interaction and easy usability.
