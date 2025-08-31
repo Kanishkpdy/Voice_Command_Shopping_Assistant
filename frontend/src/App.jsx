@@ -178,12 +178,7 @@ export default function App() {
         <h1>Voice Shopping</h1>
         <p className="sub">Say commands like "Add 2 milk" or "Remove bread"</p>
       </header>
-      <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #555; max-width: 700px; margin: 20px auto; padding: 15px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9;">
-      <strong>Disclaimer:</strong> 
-      <p>The backend runs on a free-tier server and may take up to 50 seconds to start.</p>
-    </div>
-
-
+  
       <div className="language-select">
         <label htmlFor="lang">Language: </label>
         <select id="lang" value={speechLang} onChange={handleLangChange}>
